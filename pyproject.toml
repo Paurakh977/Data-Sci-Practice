@@ -6,4 +6,5 @@ dependencies = [
     "icecream>=2.1.4",
     "numpy>=2.2.3",
     "pandas>=2.2.3",
+    "ruff>=0.9.7",
 ]
