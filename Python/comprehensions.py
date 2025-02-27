@@ -56,7 +56,7 @@ ic( [ i if i%2 ==0 else (i**2) if i>=20 else 0  for i in range(1,31)] )
 #  3: {1: 3, 2: 6, 3: 9}}
 
 ic({k: {i: k * i for i in range(1, 4)} for k in range(1, 4)})
-
+ic({k: v for num in range(1, 6) for k, v in [(f"num_{num}", num), (f"square_{num}", num**2)]})
 # Conditional Assignment in Dictionary Comprehension
 ic({k: "even" if k % 2 == 0 else "odd" for k in range(1, 7)})
 
