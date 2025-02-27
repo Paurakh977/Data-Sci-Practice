@@ -16,7 +16,7 @@ ic(keys,values)   # getting tuple of keys and values
 
 # converting list to dictionary
 ic( dict([("name", "Alice"), ("age", 25), ("city", "New York")]) )
-
+ic( list(dict.fromkeys([1, 2, 2, 3, 4, 1, 5]))) # removing duplicates from list
 keys = ['a', 'b', 'c']
 values = [1, 2, 3]
 ic(dict(zip(keys,values)))
@@ -48,8 +48,15 @@ show_details(name= "ram", age= 10, sex= "M")
 # similalry ynpacking a dict using ** makes it in the form like k1=v1,k2=v2
 #Basic Dictionary Operations
 
-from collections import defaultdict, OrderedDict
 
+# nesting of dictionary practices
+
+
+
+
+
+
+from collections import defaultdict, OrderedDict
 
 # 1. Basic Dictionary Operations
 ic("1. Basic Dictionary Operations:")
