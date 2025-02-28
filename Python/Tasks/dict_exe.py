@@ -1,3 +1,4 @@
+from icecream import ic
 # Group Data by a Key
 # Scenario: You have data points with categories and need to group them accordingly.
 
@@ -8,3 +9,4 @@
 # Expected output: {'fruit': ['apple', 'banana'], 'vegetable': ['carrot', 'broccoli']}
 
 data= [('fruit', 'apple'), ('vegetable', 'carrot'), ('fruit', 'banana'), ('vegetable', 'broccoli')]
+ic({k: [v2 for k2, v2 in data if k2 == k] for k in {k for k, v in data}})
