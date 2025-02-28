@@ -159,6 +159,7 @@ for index, name in enumerate(names):
 name_dict = {index: name for index, name in enumerate(names)}
 print(name_dict)
 
-with open("sample.txt", "r") as file:
-    for line_number, line in enumerate(file, start=1):
-        print(f"Line {line_number}: {line.strip()}")
+def write_line_wit_enum():
+    with open("sample.txt", "r") as file:
+        for line_number, line in enumerate(file, start=1):
+            print(f"Line {line_number}: {line.strip()}")
