@@ -1,5 +1,7 @@
 # A decorator is essentially a function that takes another function (or class) as input and returns a modified version of that function.
 
+#NOTE
+# When you use a decorator (with the @ syntax), Python applies it immediately at function definition time—not when you later call the function. This is why you see the print statements (like those in your Retry decorator) executed even though you're not explicitly calling the decorated function.
 import functools
 from icecream import ic
 def my_decorator(func):
