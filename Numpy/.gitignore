@@ -1,0 +1,13 @@
+.venv
+.ipynb_checkpoints
+Roadmap
+OOP_Project/
+Roadmap.pdf
+# Python compiled files
+*.pyc
+__pycache__/
+# Editor-specific files
+*.swp
+.idea/
+.vscode/
+.ruff_cache/
